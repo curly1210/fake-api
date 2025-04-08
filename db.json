@@ -1,0 +1,175 @@
+{
+  "products": [
+    {
+      "name": "Ghế gỗ",
+      "price": 21000,
+      "quantity": 123123,
+      "categoryID": 1,
+      "image": "https://dochoiphulong.com/wp-content/uploads/2020/10/ghe-go-mam-non-phu-long-pl0111c-6.jpg",
+      "description": "dsd",
+      "id": 2
+    },
+    {
+      "name": "Ghế trẻ em",
+      "price": 12000,
+      "quantity": 12,
+      "categoryID": 1,
+      "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+      "description": "sdas",
+      "id": 8
+    },
+    {
+      "name": "Bàn gỗ",
+      "price": 12000,
+      "quantity": 25,
+      "categoryID": 2,
+      "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+      "description": "Ghế nè",
+      "id": 9
+    },
+    {
+      "name": "Bàn học",
+      "price": 50000,
+      "quantity": 25,
+      "categoryID": 2,
+      "image": "https://noithatfufutech.com/upload/sanpham/1-9700.jpg",
+      "description": "Hi",
+      "id": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Ghế"
+    },
+    {
+      "id": 2,
+      "name": "Bàn"
+    }
+  ],
+  "users": [
+    {
+      "email": "oanh@gmail.com",
+      "password": "$2a$10$DEak9d8mQ882VscO4EM8Be710AslzVMryL4wAfFhcKzpFn0YisSQq",
+      "id": 1,
+      "fullname": "Olivier",
+      "sex": "Nữ",
+      "phone": "0766004415",
+      "role": "user"
+    },
+    {
+      "email": "cuong@gmail.com",
+      "password": "$2a$10$Q1yd.75.muZC8E.CyqtKVeYwN2nfkoudaucumKi/oY9vNNzL6IjZ.",
+      "fullname": "Olivier",
+      "sex": "Nữ",
+      "phone": "0766004415",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "cuongpxph48448@gmail.com",
+      "password": "$2a$10$7bPsthJoUnLMR9R8DPkdd.7RenKUhAV2OX7au3KEY.4UwB2mye11q",
+      "fullname": "cuong Pham",
+      "confirmPassword": "lamduoc1210",
+      "phone": "0898645513",
+      "sex": "nam",
+      "id": 3
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "idUser": 2,
+      "email": "cuong@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "total": 45000,
+      "statusOrder": "delivered",
+      "statusPayment": false,
+      "orderDate": "2025-04-07",
+      "items": [
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 2,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 24000
+        },
+        {
+          "ProductID": 2,
+          "name": "Ghế gỗ",
+          "quantity": 1,
+          "price": 21000,
+          "image": "https://dochoiphulong.com/wp-content/uploads/2020/10/ghe-go-mam-non-phu-long-pl0111c-6.jpg",
+          "subtotal": 21000
+        }
+      ],
+      "totalPrice": 45000,
+      "id": 1
+    },
+    {
+      "idUser": 2,
+      "email": "cuong@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "total": 62000,
+      "statusOrder": "pending",
+      "statusPayment": false,
+      "orderDate": "2025-04-07",
+      "items": [
+        {
+          "ProductID": 10,
+          "name": "Bàn học",
+          "quantity": 1,
+          "price": 50000,
+          "image": "https://noithatfufutech.com/upload/sanpham/1-9700.jpg",
+          "subtotal": 50000
+        },
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 62000,
+      "id": 2
+    },
+    {
+      "idUser": 2,
+      "email": "cuong@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "total": 24000,
+      "statusOrder": "pending",
+      "statusPayment": false,
+      "orderDate": "2025-04-08",
+      "items": [
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        },
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 24000,
+      "id": 3
+    }
+  ]
+}
