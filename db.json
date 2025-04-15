@@ -84,10 +84,11 @@
       "fullname": "Olivier",
       "phone": "0766004415",
       "address": "132 Cầu Giấy",
-      "total": 45000,
+      "paymentMethod": "COD",
+      "total": 24000,
       "statusOrder": "delivered",
-      "statusPayment": false,
-      "orderDate": "2025-04-07",
+      "orderDate": "2025-04-14",
+      "idOrder": "ORDERMG5RF6097",
       "items": [
         {
           "ProductID": 9,
@@ -96,17 +97,10 @@
           "price": 12000,
           "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
           "subtotal": 24000
-        },
-        {
-          "ProductID": 2,
-          "name": "Ghế gỗ",
-          "quantity": 1,
-          "price": 21000,
-          "image": "https://dochoiphulong.com/wp-content/uploads/2020/10/ghe-go-mam-non-phu-long-pl0111c-6.jpg",
-          "subtotal": 21000
         }
       ],
-      "totalPrice": 45000,
+      "totalPrice": 24000,
+      "statusPayment": true,
       "id": 1
     },
     {
@@ -115,19 +109,45 @@
       "fullname": "Olivier",
       "phone": "0766004415",
       "address": "132 Cầu Giấy",
-      "total": 62000,
+      "paymentMethod": "VNPAY",
+      "total": 36000,
       "statusOrder": "pending",
-      "statusPayment": false,
-      "orderDate": "2025-04-07",
+      "orderDate": "2025-03-14",
+      "idOrder": "ORDERFRGCZ5506",
       "items": [
         {
-          "ProductID": 10,
-          "name": "Bàn học",
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
           "quantity": 1,
-          "price": 50000,
-          "image": "https://noithatfufutech.com/upload/sanpham/1-9700.jpg",
-          "subtotal": 50000
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
         },
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 2,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 24000
+        }
+      ],
+      "totalPrice": 36000,
+      "statusPayment": true,
+      "id": 2
+    },
+    {
+      "idUser": 2,
+      "email": "cuong@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "VNPAY",
+      "total": 12000,
+      "statusOrder": "pending",
+      "orderDate": "2025-02-14",
+      "idOrder": "ORDER64AHR5083",
+      "items": [
         {
           "ProductID": 8,
           "name": "Ghế trẻ em",
@@ -137,19 +157,21 @@
           "subtotal": 12000
         }
       ],
-      "totalPrice": 62000,
-      "id": 2
+      "totalPrice": 12000,
+      "statusPayment": true,
+      "id": 3
     },
     {
-      "idUser": 2,
-      "email": "cuong@gmail.com",
+      "idUser": 1,
+      "email": "oanh@gmail.com",
       "fullname": "Olivier",
       "phone": "0766004415",
       "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
       "total": 24000,
-      "statusOrder": "pending",
-      "statusPayment": false,
-      "orderDate": "2025-04-08",
+      "statusOrder": "delivered",
+      "orderDate": "2025-01-14",
+      "idOrder": "ORDERM3T2K7714",
       "items": [
         {
           "ProductID": 8,
@@ -169,7 +191,331 @@
         }
       ],
       "totalPrice": 24000,
-      "id": 3
+      "statusPayment": true,
+      "id": 4
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "VNPAY",
+      "total": 112000,
+      "statusOrder": "pending",
+      "orderDate": "2024-12-14",
+      "idOrder": "ORDER3AQQZ6168",
+      "items": [
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 12000
+        },
+        {
+          "ProductID": 10,
+          "name": "Bàn học",
+          "quantity": 2,
+          "price": 50000,
+          "image": "https://noithatfufutech.com/upload/sanpham/1-9700.jpg",
+          "subtotal": 100000
+        }
+      ],
+      "totalPrice": 112000,
+      "statusPayment": true,
+      "id": 5
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 24000,
+      "statusOrder": "delivered",
+      "orderDate": "2024-11-14",
+      "idOrder": "ORDERA22GW1516",
+      "items": [
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 12000
+        },
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 24000,
+      "statusPayment": true,
+      "id": 6
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 21000,
+      "statusOrder": "delivered",
+      "orderDate": "2024-10-14",
+      "idOrder": "ORDERSZAEW7141",
+      "items": [
+        {
+          "ProductID": 2,
+          "name": "Ghế gỗ",
+          "quantity": 1,
+          "price": 21000,
+          "image": "https://dochoiphulong.com/wp-content/uploads/2020/10/ghe-go-mam-non-phu-long-pl0111c-6.jpg",
+          "subtotal": 21000
+        }
+      ],
+      "totalPrice": 21000,
+      "statusPayment": true,
+      "id": 7
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 50000,
+      "statusOrder": "delivered",
+      "orderDate": "2024-09-14",
+      "idOrder": "ORDERO5F1N1447",
+      "items": [
+        {
+          "ProductID": 10,
+          "name": "Bàn học",
+          "quantity": 1,
+          "price": 50000,
+          "image": "https://noithatfufutech.com/upload/sanpham/1-9700.jpg",
+          "subtotal": 50000
+        }
+      ],
+      "totalPrice": 50000,
+      "statusPayment": true,
+      "id": 8
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 21000,
+      "statusOrder": "delivered",
+      "orderDate": "2024-08-14",
+      "idOrder": "ORDERETUSQ7467",
+      "items": [
+        {
+          "ProductID": 2,
+          "name": "Ghế gỗ",
+          "quantity": 1,
+          "price": 21000,
+          "image": "https://dochoiphulong.com/wp-content/uploads/2020/10/ghe-go-mam-non-phu-long-pl0111c-6.jpg",
+          "subtotal": 21000
+        }
+      ],
+      "totalPrice": 21000,
+      "statusPayment": true,
+      "id": 9
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 57000,
+      "statusOrder": "delivered",
+      "orderDate": "2024-07-14",
+      "idOrder": "ORDERRON6C3634",
+      "items": [
+        {
+          "ProductID": 2,
+          "name": "Ghế gỗ",
+          "quantity": 1,
+          "price": 21000,
+          "image": "https://dochoiphulong.com/wp-content/uploads/2020/10/ghe-go-mam-non-phu-long-pl0111c-6.jpg",
+          "subtotal": 21000
+        },
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 3,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 36000
+        }
+      ],
+      "totalPrice": 57000,
+      "statusPayment": true,
+      "id": 10
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 24000,
+      "statusOrder": "pending",
+      "orderDate": "2025-04-13",
+      "idOrder": "ORDERYU9LK4771",
+      "items": [
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        },
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 24000,
+      "statusPayment": true,
+      "id": 11
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 150000,
+      "statusOrder": "pending",
+      "orderDate": "2025-04-14",
+      "idOrder": "ORDER43NLE7624",
+      "items": [
+        {
+          "ProductID": 10,
+          "name": "Bàn học",
+          "quantity": 3,
+          "price": 50000,
+          "image": "https://noithatfufutech.com/upload/sanpham/1-9700.jpg",
+          "subtotal": 150000
+        }
+      ],
+      "totalPrice": 150000,
+      "statusPayment": true,
+      "id": 12
+    },
+    {
+      "idUser": 1,
+      "email": "oanh@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 24000,
+      "statusOrder": "delivered",
+      "orderDate": "2025-04-12",
+      "idOrder": "ORDER4Z4XW1676",
+      "items": [
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        },
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 24000,
+      "statusPayment": true,
+      "id": 13
+    },
+    {
+      "idUser": 2,
+      "email": "cuong@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "VNPAY",
+      "total": 24000,
+      "statusOrder": "pending",
+      "orderDate": "2025-04-14",
+      "idOrder": "ORDERDYMQ86640",
+      "items": [
+        {
+          "ProductID": 9,
+          "name": "Bàn gỗ",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://noithattoz.com/wp-content/uploads/2020/06/ban-chan-sat-1m2-BTT15-sp.jpg",
+          "subtotal": 12000
+        },
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 24000,
+      "statusPayment": true,
+      "id": 14
+    },
+    {
+      "idUser": 2,
+      "email": "cuong@gmail.com",
+      "fullname": "Olivier",
+      "phone": "0766004415",
+      "address": "132 Cầu Giấy",
+      "paymentMethod": "COD",
+      "total": 12000,
+      "statusOrder": "pending",
+      "orderDate": "2025-04-14",
+      "idOrder": "ORDERZOHEL9678",
+      "items": [
+        {
+          "ProductID": 8,
+          "name": "Ghế trẻ em",
+          "quantity": 1,
+          "price": 12000,
+          "image": "https://bizweb.dktcdn.net/100/317/763/products/4-80e1ee81-e49c-4c69-94f3-c60371126f8a.png?v=1698303799553",
+          "subtotal": 12000
+        }
+      ],
+      "totalPrice": 12000,
+      "statusPayment": false,
+      "id": 15
     }
   ]
 }
