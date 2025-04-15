@@ -20,7 +20,7 @@ function sortObject(obj) {
 
 const tmnCode = "PVTDLWEF";
 const secretKey = "OO4KFGH39Q3JW40WX6B66J6WUKTX96FH";
-const returnUrl = "http://localhost:5173/payment-result"; // Trang kết quả
+const returnUrl = "https://ztechnology.netlify.app/payment-result"; // Trang kết quả
 const vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
 
 app.get("/create_payment_url", (req, res) => {
@@ -85,5 +85,5 @@ app.get("/check_payment", (req, res) => {
 });
 
 app.listen(3001, () => {
-  console.log("VNPay mock server (sandbox) đang chạy ở http://localhost:3001");
+  console.log("VNPay mock server (sandbox) đang chạy ở ");
 });
